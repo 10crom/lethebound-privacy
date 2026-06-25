@@ -5,56 +5,106 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy — Lethebound</title>
 <style>
-  body { font-family: Georgia, serif; max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.7; color: #2a2a2a; background: #faf8f5; }
-  h1 { font-size: 1.8em; border-bottom: 2px solid #8b1a1a; padding-bottom: 8px; }
-  h2 { font-size: 1.25em; margin-top: 2em; color: #5a1010; }
-  .updated { color: #777; font-style: italic; }
-  a { color: #8b1a1a; }
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #f5f5f4;
+    color: #1c1c1c;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 22px 80px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 6px;
+    letter-spacing: 0.5px;
+  }
+  .updated {
+    color: #6b6b6b;
+    font-size: 0.9rem;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 38px 0 10px;
+    padding-top: 18px;
+    border-top: 1px solid #e2e2e0;
+  }
+  p { margin: 0 0 14px; }
+  a { color: #b45309; word-break: break-word; }
+  strong { color: #000; }
+  .intro { font-size: 1.02rem; }
+  footer {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #6b6b6b;
+  }
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Privacy Policy — Lethebound</h1>
-<p class="updated">Last updated: June 12, 2026</p>
+  <h1>Privacy Policy — Lethebound</h1>
+  <p class="updated">Last updated: June 25, 2026</p>
 
-<p>This Privacy Policy describes how Lethebound ("we", "us", or "the Game") collects, uses, and protects your information when you use our mobile game available on iOS and Android.</p>
+  <p class="intro">This Privacy Policy describes how Lethebound ("we", "us", or "the Game") collects, uses, and protects your information when you use our mobile game available on iOS and Android.</p>
 
-<h2>1. Information We Collect</h2>
-<p>When you play Lethebound, we may collect the following information:</p>
-<p><strong>Account information:</strong> You can create an account in two ways. (1) With your email address and a password you create — your password is never stored in plain text; it is securely hashed by our authentication provider. (2) By signing in with your Google or Apple account — in that case, we receive basic profile information from the provider (such as your email address and name, or an anonymized email if you use Apple's "Hide My Email" feature), and we never receive your Google or Apple password. In both cases, an automatically generated user identifier is assigned to your account. Authentication is handled through our backend service provider (Supabase).</p>
-<p><strong>Game data:</strong> We store your in-game progress, including character collection, levels, inventory, achievements, quest progress, battle results, and in-game currency balances.</p>
-<p><strong>Social features:</strong> If you use the friends system or in-game chat, we store your friend connections and chat messages. Chat messages may be reviewed for moderation purposes.</p>
-<p><strong>Purchase information:</strong> The current version of the Game does not offer in-app purchases. If in-app purchases are introduced in a future update, they will be processed by Apple App Store or Google Play. We will not collect or store your payment card details; we would only receive purchase confirmations (transaction identifiers and purchased items) to deliver your in-game content.</p>
-<p><strong>Device and technical data:</strong> We may collect device type, operating system version, app version, language settings, and crash logs to maintain and improve the Game.</p>
+  <h2>1. Information We Collect</h2>
+  <p>When you play Lethebound, we may collect the following information:</p>
+  <p><strong>Account information:</strong> You can create an account in two ways. (1) With your email address and a password you create — your password is never stored in plain text; it is securely hashed by our authentication provider. (2) By signing in with your Google or Apple account — in that case, we receive basic profile information from the provider (such as your email address and name, or an anonymized email if you use Apple's "Hide My Email" feature), and we never receive your Google or Apple password. In both cases, an automatically generated user identifier is assigned to your account. Authentication is handled through our backend service provider (Supabase).</p>
+  <p><strong>Game data:</strong> We store your in-game progress, including character collection, levels, inventory, achievements, quest progress, battle results, and in-game currency balances.</p>
+  <p><strong>Social features:</strong> If you use the friends system or in-game chat, we store your friend connections and chat messages. Chat messages may be reviewed for moderation purposes.</p>
+  <p><strong>Purchase information:</strong> The Game offers in-app purchases, including consumable items (such as in-game currency and content packs) and an auto-renewing subscription. All purchases are processed by the Apple App Store or Google Play. We do not collect or store your payment card details. We receive only purchase confirmations (transaction identifiers and the items purchased) so that we can deliver your in-game content and validate your subscription status.</p>
+  <p><strong>Advertising data:</strong> We display third-party advertisements through Google AdMob. To serve ads, AdMob may access your device's advertising identifier (the Advertising ID on Android, or the Identifier for Advertisers / IDFA on iOS where you have granted permission), along with limited technical data such as device type, IP address, and approximate location derived from your IP address. See the "Advertising" section below for details and your choices.</p>
+  <p><strong>Device and technical data:</strong> We may collect device type, operating system version, app version, language settings, and crash logs to maintain and improve the Game.</p>
 
-<h2>2. How We Use Your Information</h2>
-<p>We use the collected information to: operate and provide the Game's features; save and synchronize your game progress across sessions; enable multiplayer features such as PvP, raids, friends, and chat; deliver purchased content; prevent cheating, fraud, and abuse; moderate chat content; and fix bugs and improve the Game.</p>
+  <h2>2. How We Use Your Information</h2>
+  <p>We use the collected information to: operate and provide the Game's features; save and synchronize your game progress across sessions; enable multiplayer features such as PvP, raids, friends, and chat; deliver purchased content and manage subscriptions; display advertising to help keep the Game free; prevent cheating, fraud, and abuse; moderate chat content; and fix bugs and improve the Game.</p>
 
-<h2>3. Data Storage and Security</h2>
-<p>Your data is stored securely using Supabase infrastructure. We use industry-standard security measures, including encrypted connections (HTTPS/TLS) and server-side authorization, to protect your data. No method of transmission or storage is 100% secure, but we take reasonable steps to safeguard your information.</p>
+  <h2>3. Advertising</h2>
+  <p>The Game is free to play and is supported in part by advertising. We use <strong>Google AdMob</strong>, an advertising service provided by Google, to display third-party advertisements within the Game.</p>
+  <p>To serve, measure, and improve ads, AdMob and Google may collect and process certain information, including your device's advertising identifier (the <strong>Advertising ID</strong> on Android and, where permitted, the <strong>Identifier for Advertisers (IDFA)</strong> on iOS), IP address, approximate location derived from your IP address, device and operating system information, and data about your interaction with ads (such as impressions and clicks). This information may be used for ad delivery, frequency capping, measurement, and detecting invalid or fraudulent activity.</p>
+  <p><strong>Personalized and non-personalized ads.</strong> Where you provide consent, ads may be personalized based on information collected about you. Where you do not provide consent, or where you opt out, you will be shown non-personalized ads, which rely on contextual information rather than your past behavior.</p>
+  <p><strong>Consent (EEA, UK, Switzerland, and Turkey).</strong> If you are located in the European Economic Area, the United Kingdom, Switzerland, or Turkey, we present a consent request — using a Google-certified consent management platform (Google's User Messaging Platform) — before personalized ads are served or before your data is used for that purpose. You can change or withdraw your consent at any time through the in-game settings.</p>
+  <p><strong>App Tracking Transparency (iOS).</strong> On iOS, we use Apple's App Tracking Transparency framework to ask for your permission before accessing your IDFA for advertising purposes. If you do not grant permission, your IDFA will not be used and you will be shown non-personalized ads.</p>
+  <p><strong>Managing the advertising identifier.</strong> You can reset your advertising identifier or opt out of ad personalization at the device level: on Android, via Settings → Google → Ads; on iOS, via Settings → Privacy &amp; Security → Tracking and Settings → Privacy &amp; Security → Apple Advertising.</p>
+  <p>For more information about how Google uses data when you use our Game, see Google's "How Google uses information from sites or apps that use our services" (<a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>) and the Google Privacy Policy (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>).</p>
 
-<h2>4. Data Sharing</h2>
-<p>We do not sell your personal information. We share data only with:</p>
-<p><strong>Service providers:</strong> Supabase (backend hosting and authentication), Google and Apple (sign-in services, app distribution, and — if introduced in the future — purchase processing).</p>
-<p><strong>Other players:</strong> Your in-game display name, avatar, level, and team composition may be visible to other players through PvP, leaderboards, friends lists, and chat.</p>
-<p><strong>Legal requirements:</strong> We may disclose information if required by law or to protect our rights and the safety of our players.</p>
+  <h2>4. Data Storage and Security</h2>
+  <p>Your data is stored securely using Supabase infrastructure. We use industry-standard security measures, including encrypted connections (HTTPS/TLS) and server-side authorization, to protect your data. No method of transmission or storage is 100% secure, but we take reasonable steps to safeguard your information.</p>
 
-<h2>5. Children's Privacy</h2>
-<p>Lethebound is not directed at children under the age of 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+  <h2>5. Data Sharing</h2>
+  <p>We do not sell your personal information. We share data only with:</p>
+  <p><strong>Service providers:</strong> Supabase (backend hosting and authentication); Apple and Google (sign-in services, app distribution, and in-app purchase processing).</p>
+  <p><strong>Advertising partner:</strong> Google AdMob, to display and measure third-party advertisements (see the "Advertising" section above for the data involved and your choices).</p>
+  <p><strong>Other players:</strong> Your in-game display name, avatar, level, and team composition may be visible to other players through PvP, leaderboards, friends lists, and chat.</p>
+  <p><strong>Legal requirements:</strong> We may disclose information if required by law or to protect our rights and the safety of our players.</p>
 
-<h2>6. Your Rights</h2>
-<p>Depending on your location (including under GDPR for EU residents and KVKK for residents of Turkey), you may have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion of your account and associated data; and object to or restrict certain processing.</p>
-<p>To exercise these rights, contact us using the details below. Account deletion requests will be processed within 30 days.</p>
+  <h2>6. Children's Privacy</h2>
+  <p>Lethebound is not directed at children under the age of 13 (or the minimum age required in your country). We do not knowingly collect personal information from children, and we do not knowingly use children's data to serve personalized advertising. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
 
-<h2>7. Data Retention</h2>
-<p>We retain your account and game data for as long as your account is active. If you delete your account, we delete or anonymize your personal data within a reasonable period, except where retention is required by law (e.g., purchase records).</p>
+  <h2>7. Your Rights</h2>
+  <p>Depending on your location (including under GDPR for EU residents and KVKK for residents of Turkey), you may have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion of your account and associated data; and object to or restrict certain processing, including the processing of your data for personalized advertising.</p>
+  <p>To exercise these rights, contact us using the details below. Account deletion requests will be processed within 30 days.</p>
 
-<h2>8. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the Game or by updating the "Last updated" date above. Continued use of the Game after changes constitutes acceptance of the updated policy.</p>
+  <h2>8. Data Retention</h2>
+  <p>We retain your account and game data for as long as your account is active. If you delete your account, we delete or anonymize your personal data within a reasonable period, except where retention is required by law (e.g., purchase and tax records).</p>
 
-<h2>9. Contact Us</h2>
-<p>If you have questions about this Privacy Policy or your data, contact us at:</p>
-<p><strong>Email:</strong> support@lethebound.com</p>
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the Game or by updating the "Last updated" date above. Continued use of the Game after changes constitutes acceptance of the updated policy.</p>
 
+  <h2>10. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
+  <p><strong>Email:</strong> <a href="mailto:support@lethebound.com">support@lethebound.com</a></p>
+
+  <footer>© 2026 Lethebound</footer>
+
+</div>
 </body>
 </html>
